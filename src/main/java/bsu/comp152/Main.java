@@ -21,6 +21,8 @@ public class Main {
         car1.brake();
         // Call a getter on the car object to print the car's speed.
         System.out.println(car1.getSpeed());
+        car1.stop();
+        System.out.println(car1.getSpeed());
         /*
          * Call the isSpeeding method on the car to determine whether the car is speeding in a 55 mph zone.
          */
@@ -57,5 +59,6 @@ public class Main {
 
         System.out.println(car1);
         System.out.println(carCopy);
+        System.out.println(car1.isNewer(car2));
     }
 }

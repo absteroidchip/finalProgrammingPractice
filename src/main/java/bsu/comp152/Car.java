@@ -119,4 +119,12 @@ public class Car {
         newCar.speed = speed;
         return newCar;
     }
+
+    public void stop(){
+        speed = 0;
+    }
+
+    public boolean isNewer(Car other){
+        return year > other.year;
+    }
 }
